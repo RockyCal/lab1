@@ -31,9 +31,14 @@
  .btn-text {
  	margin: 0;
  	padding-top: .5em;
+ 	color: black;
  }
 
-#portfolio {
+ a:link {
+ 	text-decoration: none;
+ }
+
+.mainsection {
 	width: 65em;
 	float: right;
 	padding-left: 10px;
