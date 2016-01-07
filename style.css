@@ -1,0 +1,50 @@
+.header{
+	margin-top: 1.5em;
+	background-color: #5252e0;
+	padding-bottom: 1em;
+	margin-bottom: 3px;
+}
+
+.text {
+	font-family: Expressway;
+}
+
+.nav {
+	width: 150px;
+	min-height: 100em;
+	float: left;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+ .button {
+ 	margin: 3px;
+ 	height: 40px;
+ 	text-align: center;
+ }
+
+.button:hover {
+	background-color: #5252e0;
+}
+
+ .btn-text {
+ 	margin: 0;
+ 	padding-top: .5em;
+ }
+
+#portfolio {
+	width: 65em;
+	float: right;
+	padding-left: 10px;
+}
+
+.name {
+	font-size: 72px;
+	margin: 0px;
+	text-align: center;
+}
+
+.aproject {
+	margin-bottom: 3em;
+}

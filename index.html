@@ -3,23 +3,43 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>HCI Project Portfolio</title>
 </head>
 
 <body>
-	<!-- this is a comment in HTML -->
-	<h1>Scott Klemmer</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
-
-	<!-- p means paragraph -->
-	<p>Scott is an Associate Professor of Cognitive Science and Computer Science & Engineering at UC San Diego, where he is a co-founder and Associate Director of the Design Lab. He previously served as Associate Professor of Computer Science at Stanford, where he co-directed the HCI Group, held the Bredt Faculty Scholar chair, and was a founding participant in the d.school. </p>
-
-	<h4>Projects</h4>
-	<ol>
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+	<div class="header">
+		<h1 class="name text">Raquel</h1>
+		<h1 class="name text">Calderon</h1>		
+	</div>
+	<div class="nav">
+		<div class="button">
+			<p class="text btn-text">Contact</p>
+		</div>
+	</div>
+	<div id="portfolio">
+		<h3 class="text">Project Portfolio</h4>
+		<div id="bio">
+			<h4 class="text">Bio</h4>
+			<p class="text">Raquel is an undergrad studying Computer Science and Cognitive Science at University of California, San Diego. In the past she has done data processing and research with the EarthCube Metadata Interoperability Project. Currently, she works as a Data Processing Management staff member in the Marine Physical Laboratory at Scripps Institute of Oceanography. She is interested in data science, design and software engineering. Particularly, Raquel is interested in information, the insights it yields, how we handle those insights, how we percieve information and process it, and improving our capacity to do such. She likes learning news things, listening to people talk about their experiences and watching horror movies.
+			</p>
+		</div>
+		<div id="projects">
+		<h4 class="text">Projects</h4>
+			<div class="aproject">
+				<a href="https://www.comcost.org/SKT/" target="_blank">
+					<img src="static/logo.png" style="width:350px;height:200px">
+				</a>
+				<p class="text">Comcost was a fictional software engineering effort consisting of seven students hailing from Electrical Engineering, Computer Science, and Cognitive Science. At first they were quiet, nervous, unsure of what to think of one another, and coincidentally all hungry and all kinda into memes. In the Winter of 2014, Telegroup, a phone and internet company, contracted Comcost to build their website. Suddenly, these seven strangers had to combine their varying degrees and kinds of knowledge to build a usable, engaging site. Armed with django, python, and access to rooms that they maybe technically should not have been in, they built that website and it lives on.
+				</p>
+			</div>
+			<div>
+			<a href="http://www.bluebeam.com/" target="_blank">
+				<img src="static/bblogo.jpg" style="width:800px;height:200px">
+			</a>
+			<p class="text">At Bluebeam technologies, seven interns(seven must be a key number) were tasked with taking the power of Bluebeam to the web. Once logged into the application a user needed to be able to collaborate with colleagues in real time in a session, checkout a project and check it back in and manipulate the document view. This project tested our ability to deftly use Angular's API Promise service and create effective classes and models for retrieving, processing and handing off data. It was overall, a fun, productive summer. I owe much of what I know about Angularjs, web development and working with a team to this project and its wonderful members. Unfortunately, I can't show you the project but have a general website I didn't build instead.</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
