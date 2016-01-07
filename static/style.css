@@ -9,6 +9,17 @@
 	font-family: Expressway;
 }
 
+.name {
+	font-size: 72px;
+	margin: 0px;
+	text-align: center;
+}
+
+.pid {
+	margin: 0px;
+	text-align: center;
+}
+
 .nav {
 	width: 150px;
 	min-height: 100em;
@@ -42,12 +53,6 @@
 	width: 65em;
 	float: right;
 	padding-left: 10px;
-}
-
-.name {
-	font-size: 72px;
-	margin: 0px;
-	text-align: center;
 }
 
 .aproject {
